@@ -74,8 +74,6 @@ class gray_scale(object):
         else:
             return img
  
-    
-    
 class horizontal_flip(object):
     """
     Apply Solarization to the PIL image.
@@ -90,8 +88,6 @@ class horizontal_flip(object):
         else:
             return img
         
-    
-    
 def new_data_aug_generator(args = None):
     img_size = args.input_size
     remove_random_resized_crop = args.src
